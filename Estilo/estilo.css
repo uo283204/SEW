@@ -15,7 +15,6 @@ header {
 }
 
 h1 {
-  font-size: 250%;
   text-transform: uppercase; 
 }
 
@@ -24,7 +23,6 @@ main {
 }
 
 h2 {
-  font-size: 150%;
   color: rgb(117, 29, 139);
 }
 
