@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Ruben Diaz Zapico" />
+    <meta name ="description" content ="aquí cada documento debe tener la descripción del contenido concreto del mismo" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>Practica 1</title>
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="Estilo/layout.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1> <img alt="Logo" src="Multimedia/Imagenes/Logo.png" /> ASP.NET Core </h1>
+
+        <nav>
+            <a accesskey="P" tabindex="1" href="index.html"> Principal </a>
+            <a accesskey="V" tabindex="2" href="ventajas.html"> Ventajas </a>
+            <a accesskey="I" tabindex="3" href="diferencias.html"> Diferencias </a>
+            <a accesskey="C" tabindex="4" href="creacion.html"> Creacion de API Web </a>
+            <a accesskey="O" tabindex="5" href="formulario.html"> Formulario </a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nos interesa tu opinion </h2>
+            <form name="Datos">
+                <fieldset>
+                    <legend>Introduzca sus datos </legend>
+                    <p> <label for="num">Numero de telefono:</label> <input id="num" type="number" > </p>
+                    <p> <label for="email">E-mail:</label> <input id="email" type="email" > </p>
+                    <p> <label for="name">Nombre:</label> <input id="name" type="text" > </p>
+                    <p> <label for="surname">Apellido:</label> <input id="surname" type="text" > </p>
+                    <p> <label for="date">fecha de nacimiento:</label> <input id="date" type="date" > </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Que le ha parecido la informacion de esta pagina? </legend>
+                    <p><input type="radio" value="Muy buena" name="RBG1">Muy buena </p>
+                    <p><input type="radio" value="Buena" name="RBG1">Buena </p>
+                    <p><input type="radio" value="Mala" name="RBG1">Mala </p>
+                    <p><input type="radio" value="Muy mala" name="RBG1">Muy mala </p>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>¿Que le ha parecido los videos? </legend>
+                    <p><input type="radio" value="Muy buenos" name="RBG2">Muy buenos </p>
+                    <p><input type="radio" value="Buenos" name="RBG2">Buenos </p>
+                    <p><input type="radio" value="Malos" name="RBG2">Malos </p>
+                    <p><input type="radio" value="Muy malos" name="RBG2">Muy malos </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Que documento/s de esta pagina web le ha gustado? </legend>
+                    <p><input type="checkbox" value="Muy buena">Principal </p>
+                    <p><input type="checkbox" value="Buena">Ventajas </p>
+                    <p><input type="checkbox" value="Mala">Diferencias </p>
+                    <p><input type="checkbox" value="Muy mala">Creacion </p>
+                </fieldset>
+            
+                <p><label>Deje aqui sus sugerencias para mejorar la pagina</label> </p>
+                <p><textarea cols="50" rows="6" ></textarea></p>
+                <p><input type="submit" value="Enviar"> </p>             
+            </form>
+    </main>    
+
+    <footer>
+        <p><img alt="Logo" src="Multimedia/Imagenes/footer.png" /> </p>
+    </footer>
+</body>
+</html>
