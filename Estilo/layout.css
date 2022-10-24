@@ -33,7 +33,7 @@ nav > a {
 main {
   grid-area: main;
   margin: 0 auto;
-  padding: 0 1% 0 1%;
+  padding: 0 1%;
 }
 
 table {
