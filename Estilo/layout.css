@@ -27,13 +27,13 @@ nav {
 }
 
 nav > a {
-  margin: 0 2% 0 2%;
+  margin: 0 2%;
 } 
 
 main {
   grid-area: main;
-  margin: 0 20% 0 20%;
-  padding: 0 1% 0 1%;
+  margin: 0 20%;
+  padding: 0 1%;
 }
 
 table th {
@@ -72,5 +72,5 @@ textarea {
 
 footer {
   grid-area: footer;
-  margin: 0 20% 1% 20%;
+  margin: 0 20%;
 }
