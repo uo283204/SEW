@@ -1,0 +1,33 @@
+/****************************
+Ruben Diaz Zapico - UO283204
+Descripcion de los estilos
+****************************/
+
+body {
+  font-family: Calibri, sans-serif;
+  background-color: rgb(117, 29, 139);
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+}
+
+header {   
+  background-color:rgb(182, 179, 179);
+}
+
+h1 {
+  text-transform: uppercase; 
+}
+
+main {
+  background-color:rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(117, 29, 139);
+}
+
+footer {
+  background-color:rgb(255, 255, 255);
+}
+
+
