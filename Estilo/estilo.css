@@ -12,6 +12,7 @@ body {
 
 header {   
   background-color:rgb(182, 179, 179);
+  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -20,14 +21,18 @@ h1 {
 
 main {
   background-color:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 h2 {
+  background-color:rgb(255, 255, 255);
   color: rgb(117, 29, 139);
 }
 
 footer {
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(117, 29, 139);
+  color: rgb(0, 0, 0);
+  Font-weight: 3px;
 }
 
 

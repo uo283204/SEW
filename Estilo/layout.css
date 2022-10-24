@@ -33,14 +33,14 @@ nav > a {
 main {
   grid-area: main;
   margin: 0 auto;
-  padding: 0 1%;
+  padding: 0 1% 0 1%;
 }
 
-table th {
-  border: 3px solid black;
+table {
+  border-collapse: collapse;
 }
 
-table td {
+table, th, td {
   border: 3px solid black;
 }
 
@@ -48,11 +48,11 @@ video {
   width: 30%;
 }
 
-header img {
+header > img {
   vertical-align: bottom;
 }
 
-main img {
+main > img {
   width: 30%;
   vertical-align: middle;
 }
@@ -63,10 +63,11 @@ audio {
 
 textarea {
   height: 100px;
-  width: 35%;
+  width: 70%;
 }
 
 footer {
   grid-area: footer;
   margin: 0 auto;
+  font-weight: bold;
 }
