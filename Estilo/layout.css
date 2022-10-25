@@ -36,7 +36,7 @@ main {
   padding: 0 1%;
 }
 
-video {
+video, audio {
   width: 30%;
 }
 
@@ -47,10 +47,6 @@ header img {
 main img {
   width: 30%;
   vertical-align: middle;
-}
-
-audio {
-  width: 30%;
 }
 
 textarea {
