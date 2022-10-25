@@ -29,10 +29,18 @@ h2 {
   color: rgb(117, 29, 139);
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 3px solid black;
+}
+
 footer {
   background-color: rgb(117, 29, 139);
   color: rgb(0, 0, 0);
-  Font-weight: 3px;
+  font-weight: bold;
 }
 
 

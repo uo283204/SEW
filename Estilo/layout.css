@@ -36,14 +36,6 @@ main {
   padding: 0 1%;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-table, th, td {
-  border: 3px solid black;
-}
-
 video {
   width: 30%;
 }
@@ -69,5 +61,4 @@ textarea {
 footer {
   grid-area: footer;
   margin: 0 auto;
-  font-weight: bold;
 }
